@@ -14,5 +14,7 @@ This will return a MediaStream which should be passed to _localVideoRenderer.src
 
 Flutter_webrtc plugin provides a RTCVideoView widget which takes renderer as argument to display the data "RTCVideoView(_localVideoRenderer)"
 
+Now, create ui for displaying different feed for the remote and local ui
+
 ## Reference
 - [Blog Tutorial] (https://www.100ms.live/blog/flutter-webrtc)
