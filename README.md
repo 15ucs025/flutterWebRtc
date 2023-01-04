@@ -16,5 +16,11 @@ Flutter_webrtc plugin provides a RTCVideoView widget which takes renderer as arg
 
 Now, create ui for displaying different feed for the remote and local ui
 
+Create Method "_createPeerConnecion":
+In order to create peer to peer connection, bypass firewall/NAT if required and exchange data server is required. WebRTC offer IEC framework to overcome these challenges (Requires server, stun is set as default).
+We will use google free STUN server
+Pass it SDP constraints and local media renderer
+
 ## Reference
 - [Blog Tutorial] (https://www.100ms.live/blog/flutter-webrtc)
+- [Video Reference] (https://youtu.be/IFPFNiFozdw)
